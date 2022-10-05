@@ -1,4 +1,45 @@
-<h1>
-  Hello CCCCCCC
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
   
-</h1>
+</head>
+
+<body>
+ <div class="login">
+	<h1>Carlifornia House Pricing</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+      <input type="text" name="longitude" placeholder="Enter your desired longitude" required="required" /><br>
+    	<input type="text" name="latitude" placeholder="Enter your desired latitude" required="required" /><br>
+        <input type="text" name="housing_median_age " placeholder="House Age?" required="required" /><br>
+        <input type="text" name="total_rooms" placeholder="Number of Rooms?" required="required" /><br>
+        <input type="text" name="total_bedrooms" placeholder="Number of Bedrooms?" required="required" /><br>
+        <input type="text" name="population" placeholder="District Population?" required="required" /><br>
+        <input type="text" name="households" placeholder="Households within districts" required="required" /><br>
+        <input type="text" name="median_income" placeholder="Average district income?" required="required" /><br> 
+        <input type="text" name="INLAND" placeholder="Inland?" required="required" /><br>
+        <input type="text" name="ISLAND" placeholder="Island?" required="required" /><br>
+        <input type="text" name="NEAR BAY" placeholder="Near Bay?" required="required" /><br>
+        <input type="text" name="NEAR OCEAN" placeholder="Near Ocean?" required="required" /><br>
+        
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>

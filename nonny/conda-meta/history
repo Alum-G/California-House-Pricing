@@ -1,0 +1,66 @@
+==> 2022-10-03 16:37:22 <==
+# cmd: /Users/nonsoalumona/opt/miniconda3/bin/conda create -p nonny python==3.9.12
+# conda version: 4.14.0
++defaults/noarch::tzdata-2022c-h04d1e81_0
++defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
++defaults/osx-arm64::ca-certificates-2022.07.19-hca03da5_0
++defaults/osx-arm64::certifi-2022.9.14-py39hca03da5_0
++defaults/osx-arm64::libcxx-14.0.6-h848a8c0_0
++defaults/osx-arm64::libffi-3.4.2-hc377ac9_4
++defaults/osx-arm64::ncurses-6.3-h1a28f6b_3
++defaults/osx-arm64::openssl-1.1.1q-h1a28f6b_0
++defaults/osx-arm64::pip-22.2.2-py39hca03da5_0
++defaults/osx-arm64::python-3.9.12-hbdb9e5c_1
++defaults/osx-arm64::readline-8.1.2-h1a28f6b_1
++defaults/osx-arm64::setuptools-63.4.1-py39hca03da5_0
++defaults/osx-arm64::sqlite-3.39.3-h1058600_0
++defaults/osx-arm64::tk-8.6.12-hb8d0fd4_0
++defaults/osx-arm64::xz-5.2.6-h1a28f6b_0
++defaults/osx-arm64::zlib-1.2.12-h5a0b063_3
+# update specs: ['python==3.9.12']
+==> 2022-10-03 16:41:39 <==
+# cmd: /Users/nonsoalumona/opt/miniconda3/condabin/conda install -c conda-forge --prefix /Users/nonsoalumona/Documents/GitHub/California-House-Pricing/nonny ipykernel -y
+# conda version: 4.14.0
+-defaults/osx-arm64::ca-certificates-2022.07.19-hca03da5_0
+-defaults/osx-arm64::certifi-2022.9.14-py39hca03da5_0
+-defaults/osx-arm64::openssl-1.1.1q-h1a28f6b_0
++conda-forge/noarch::appnope-0.1.3-pyhd8ed1ab_0
++conda-forge/noarch::asttokens-2.0.8-pyhd8ed1ab_0
++conda-forge/noarch::backcall-0.2.0-pyh9f0ad1d_0
++conda-forge/noarch::backports-1.0-py_2
++conda-forge/noarch::backports.functools_lru_cache-1.6.4-pyhd8ed1ab_0
++conda-forge/noarch::certifi-2022.9.24-pyhd8ed1ab_0
++conda-forge/noarch::decorator-5.1.1-pyhd8ed1ab_0
++conda-forge/noarch::entrypoints-0.4-pyhd8ed1ab_0
++conda-forge/noarch::executing-1.1.0-pyhd8ed1ab_0
++conda-forge/noarch::ipykernel-6.16.0-pyh736e0ef_0
++conda-forge/noarch::ipython-8.5.0-pyhd1c38e8_1
++conda-forge/noarch::jedi-0.18.1-pyhd8ed1ab_2
++conda-forge/noarch::jupyter_client-7.3.4-pyhd8ed1ab_0
++conda-forge/noarch::matplotlib-inline-0.1.6-pyhd8ed1ab_0
++conda-forge/noarch::nest-asyncio-1.5.6-pyhd8ed1ab_0
++conda-forge/noarch::packaging-21.3-pyhd8ed1ab_0
++conda-forge/noarch::parso-0.8.3-pyhd8ed1ab_0
++conda-forge/noarch::pexpect-4.8.0-pyh9f0ad1d_2
++conda-forge/noarch::pickleshare-0.7.5-py_1003
++conda-forge/noarch::prompt-toolkit-3.0.31-pyha770c72_0
++conda-forge/noarch::ptyprocess-0.7.0-pyhd3deb0d_0
++conda-forge/noarch::pure_eval-0.2.2-pyhd8ed1ab_0
++conda-forge/noarch::pygments-2.13.0-pyhd8ed1ab_0
++conda-forge/noarch::pyparsing-3.0.9-pyhd8ed1ab_0
++conda-forge/noarch::python-dateutil-2.8.2-pyhd8ed1ab_0
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
++conda-forge/noarch::stack_data-0.5.1-pyhd8ed1ab_0
++conda-forge/noarch::traitlets-5.4.0-pyhd8ed1ab_0
++conda-forge/noarch::wcwidth-0.2.5-pyh9f0ad1d_2
++conda-forge/osx-arm64::ca-certificates-2022.9.24-h4653dfc_0
++conda-forge/osx-arm64::libsodium-1.0.18-h27ca646_1
++conda-forge/osx-arm64::openssl-1.1.1q-ha287fd2_0
++conda-forge/osx-arm64::python_abi-3.9-2_cp39
++conda-forge/osx-arm64::tornado-6.1-py39h5161555_1
++conda-forge/osx-arm64::zeromq-4.3.4-hbdafb3b_1
++defaults/osx-arm64::debugpy-1.5.1-py39hc377ac9_0
++defaults/osx-arm64::jupyter_core-4.10.0-py39hca03da5_0
++defaults/osx-arm64::psutil-5.9.0-py39h1a28f6b_0
++defaults/osx-arm64::pyzmq-23.2.0-py39hc377ac9_0
+# update specs: ['ipykernel']
